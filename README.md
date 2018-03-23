@@ -1,4 +1,5 @@
 # compile-time-evaluation-example
+[![Build Status](https://travis-ci.org/nwtgck/compile-time-evaluation-example-haskell.svg?branch=master)](https://travis-ci.org/nwtgck/compile-time-evaluation-example-haskell)
 
 Here is an example for an article of <https://qiita.com/nwtgck/items/b6d048c2730c37be0870>.
 
