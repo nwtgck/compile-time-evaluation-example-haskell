@@ -22,8 +22,6 @@ description:         Please see the README on Github at <https://github.com/gith
 dependencies:
 - base >= 4.7 && < 5
 
-#library:
-#  source-dirs: src
 
 executables:
   compile-time-evaluation-example-exe:
@@ -33,8 +31,8 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    dependencies: []
-#    - compile-time-evaluation-example
+    dependencies: 
+     - template-haskell
 
 tests:
   compile-time-evaluation-example-test:
